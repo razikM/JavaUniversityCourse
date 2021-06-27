@@ -1,4 +1,4 @@
-package homework2;
+package homework2.game;
 
 public class View {
 
