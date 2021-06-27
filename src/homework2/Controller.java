@@ -14,11 +14,13 @@ public class Controller {
     public void play(){
         boolean running = true;
         Scanner scanner = new Scanner(System.in);
+
         while (running){
             view.printMsg("Please guess a number");
             view.printMsg("The interval is [" + model.getStart() + "," + model.getEnd() + "]");
             view.printMsg("Your try:");
             int input;
+
             try {
                 input = Integer.parseInt(scanner.nextLine());
             } catch (Exception e){
