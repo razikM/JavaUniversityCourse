@@ -1,14 +1,8 @@
 package homework3;
 
-import org.junit.Assert;
+import homework3.controller.Controller;
+import homework3.view.View;
 import org.junit.BeforeClass;
-import org.junit.Rule;
-import org.junit.Test;
-
-import java.io.ByteArrayInputStream;
-import java.io.Console;
-import java.io.PrintStream;
-import java.util.Scanner;
 
 public class MVCTest {
     private static View view;
